@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css task 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        input{
+            padding: 10px 249px 10px 0px;
+        }
+
+        table {
+            margin: 30px;
+        }
+
+        .one {
+            width: 400px;
+            height: 500px;
+        }
+
+        img {
+            width: 130px;
+            display: flex;
+            justify-content: center;
+            padding: 0px 140px;
+            border-radius: 100%;
+        }
+
+        .two {
+            box-sizing: content-box;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        a {
+            display: block;
+            width: 115px;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .button1 {
+            background-color: rgb(76, 176, 80); 
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            padding: 8px 186px;
+        }
+        .button2{
+            background-color: rgb(244, 66, 54);
+            border: 0.2px;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            padding: 5px 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table class="one">
+            <tr>
+                <td><img src="./woman.jpeg.jpg"
+                        alt="woman"></td>
+            </tr>
+            <tr>
+                <td><label for=""><b>Username</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter Username" /></td>
+            </tr>
+            <tr>
+                <td><label for=""><b>Password</b></label></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" placeholder="Enter password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="button1" type="submit" value="Login" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" size="100" /> Remember me
+                </td>
+            </tr>
+            <tr class="two">
+                <td> <input class="button2" type="submit" value="Cancel" /></td>
+                <td>
+                    <a href="">Forgot Password? </a>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

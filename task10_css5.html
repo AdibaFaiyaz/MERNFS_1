@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssTask5</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }        
+        .container {
+            background-color: rgb(217, 218, 62);
+            width: 650px;
+            height: 450px;
+            border: 3px dotted rgb(224, 162, 81);
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        nav ul li {
+            list-style: none;
+            
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: blue;
+            padding: 10px;
+        }
+
+        nav {
+            /* display: inline-block; */
+            float: inline-start;
+            width: 130px;
+            margin: 70px 0px 0px 20px;
+        }
+
+        .box {
+            display: inline-block;
+            width: 300px;
+            margin: 30px 30px 0px 70px;
+            color: rgb(126, 10, 107);
+            line-height: 40px;
+        }
+
+        .one {
+            background-color: white;
+            width: 100px;
+            margin: 3px;
+            padding: 5px 10px 5px 2px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="one"><a href="">Home page</a></li>
+                <li class="one"><a href="">Musings</a></li>
+                <li class="one"><a href="">My town</a></li>
+                <li class="one"><a href="">Links</a></li>
+            </ul>
+
+        </nav>
+        <div class="box">
+            <h2>My first styled page</h2>
+            <p>Welcome to my styled page!</p>
+            <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+            <p>There should be more here, but I don't know what yet.</p>
+            <hr>
+            <p><I>Made 5 April 2004 <br>by myself</I></p>
+            
+        </div>
+    </div>
+</body>
+
+</html>
